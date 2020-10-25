@@ -1,3 +1,7 @@
+let num = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
+let tens = "twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+
+
 module.exports = function toReadable(n) {
 if (n < 20) return num[n];
 let digit = n % 10;
